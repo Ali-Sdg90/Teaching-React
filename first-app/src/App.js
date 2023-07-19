@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Ali from "./Ali";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+import image from "./Love_Heart_SVG.svg.png";
+
+import Main from "./Main";
+
+const App = () => {
+    return (
+        <div>
+            <h1>Hello</h1>
+            <button>Aloha</button>
+            <p>{20 + 10}</p>
+            <p>{Math.random() * 1000}</p>
+            <p>Hello</p>
+            <Main></Main>
+            <Ali></Ali>
+            {/* <img src={image} alt="love"></img> */}
+        </div>
+    );
+};
 
 export default App;
