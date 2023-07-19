@@ -15,7 +15,7 @@ const App = () => {
             <p>Hello</p>
             <Main></Main>
             <Ali></Ali>
-            {/* <img src={image} alt="love"></img> */}
+            {/* <img src={image} alt="RandImg"></img> */}
         </div>
     );
 };
