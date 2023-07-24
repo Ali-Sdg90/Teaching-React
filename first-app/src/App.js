@@ -10,6 +10,7 @@ import "./App.css";
 
 import Styles from "./App.module.css";
 import Livan from "./Livan";
+import UseState from "./UseState";
 
 const Aloha = { color: "red", textAlign: "center" };
 
@@ -18,19 +19,7 @@ const ali = "Reza";
 const App = () => {
     return (
         <div>
-            <h1 style={{ color: "red", textAlign: "center" }}>Hello</h1>
-            <button>Aloha</button>
-            <button className="Aloha">Hiiiii</button>
-            <button className={ali}>Hiiiii</button>
-            <button className={Styles.button}>Modules</button>
-            <p>{20 + 10}</p>
-            <p>{Math.random() * 1000}</p>
-            <p>Hello</p>
-            <Main></Main>
-            <Ali></Ali>
-            {/* <img src={image} alt="RandImg"></img> */}
-            <Form></Form>
-            <Livan></Livan>
+            <UseState />
         </div>
     );
 };
